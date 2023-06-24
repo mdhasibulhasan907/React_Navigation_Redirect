@@ -2,8 +2,12 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Blogs from './pages/Blogs';
-import Navbar from './components/Navbar'
-function App() {
+import Navbar from './components/Navbar';
+
+import './App.css';
+
+
+const  App=()=> {
   
 
   return (

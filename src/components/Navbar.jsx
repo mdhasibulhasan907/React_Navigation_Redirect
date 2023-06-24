@@ -1,13 +1,15 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+
+
 
 const Navbar=()=>{
 
     return <nav>
-         <Link to="/">Home</Link>
-         <Link to="/contact">Contact</Link>
-         <Link to="/blogs">Blogs</Link>
+         <NavLink to="/" className='nav-link'>Home</NavLink> 
+         <NavLink to="/contact" className='nav-link'>Contact</NavLink> 
+         <NavLink to="/blogs" className='nav-link'>Blogs</NavLink>
 
     </nav>
         
